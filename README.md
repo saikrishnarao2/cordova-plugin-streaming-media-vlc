@@ -1,6 +1,6 @@
 # Cordova Streaming Media plugin
 
-For iOS and Android, by [Nicholas Hutchind](https://github.com/nchutchind)
+For iOS and Android, by [Saikrishna](https://github.com/saikrishnarao2)
 
 ## Description
 
@@ -12,7 +12,7 @@ This plugin allows you to stream audio and video in a fullscreen, native player 
 ## Installation
 
 ```
-cordova plugin add cordova-plugin-streaming-media
+cordova plugin add cordova-plugin-streaming-media-vlc
 ```
 
 ### iOS specifics
@@ -45,7 +45,7 @@ cordova plugin add cordova-plugin-streaming-media
     controls: true // true(default)/false. Used to hide controls on fullscreen
   };
   window.plugins.streamingMedia.playVideo(videoUrl, options);
-
+  window.plugins.streamingMedia.stopVideo("");
 
   var audioUrl = STREAMING_AUDIO_URL;
 
