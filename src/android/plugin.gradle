@@ -1,0 +1,9 @@
+android {
+    productFlavors {
+        prod {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+    }
+}
