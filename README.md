@@ -12,7 +12,7 @@ This plugin allows you to stream audio and video in a fullscreen, native player 
 ## Installation
 
 ```
-cordova plugin add cordova-plugin-streaming-media-vlc
+cordova plugin add https://github.com/saikrishnarao2/cordova-plugin-streaming-media-vlc.git
 ```
 
 ### iOS specifics
